@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;  
+  }
+  body::-webkit-scrollbar{
+      display: none;
+  }
+.compaigen_ideas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  
+    
+}
+.compaigen_ideas_heading p{
+    position: absolute;
+    top: 150px;
+    left: 80px;
+}
+.head{
+font-family: 'Rubik', sans-serif;
+font-size: 100px;
+font-weight: 600;
+line-height: 143px;
+letter-spacing: 0.015em;
+text-align: left;
+color: #FF018F;
+margin: auto;
+}
+.comaigen_idea_main{
+    display: flex;
+  margin-left:10px;
+  margin-bottom: 50px;
+  
+    
+}
+.comaigen_idea_main .comaigen_idea_main1{
+   flex: 6;
+}
+
+.comaigen_idea_main .comaigen_idea_main2{
+    flex: 6;
+
+}
+    .comaigen_idea_main .comaigen_idea_main2 img{
+        height: 500px;
+        width: 550px;
+        background-color: #4700FF;
+        margin-left: 110px;
+        margin-top: 100px;
+        
+        
+    }
+
+    .comaigen_idea_main1 h1{
+        font-family: 'Kanit', sans-serif;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 92px;
+        letter-spacing: 0.055em;
+        text-align: left;
+        color: #4700FF;
+        margin-left: 150px;
+        text-align: center;
+        
+    }
+    .comaigen_idea_main1 p{
+font-family: 'Kanit', sans-serif;
+font-size: 32px;
+font-weight: 300;
+line-height: 46px;
+letter-spacing: 0.015em;
+width: 500px;
+text-align:left;
+margin-left: 150px;
+margin-top: 80px;
+    }
+    
+.comaigen_idea_main2 .img1{
+    position: absolute;
+width: 133px;
+height: 746px;
+top: 214px;
+left: 1400px;
+background-color: #F3CB3B;
+z-index:-1;
+
+
+    }
+    .comaigen_idea_main2 .img-1{
+        width: 488px;
+        height: 111px;
+        position: absolute;
+        top: 762px;
+        left: 780px;
+        background-color: #F3CB3B;
+        z-index: -1;
+    }
+
+    .comaigen_idea_main2 .img2{
+        position: absolute;
+        width: 518px;
+        height: 517px;
+        top: 1000px;
+        left: 10px;
+        background-color: #F3CB3B;
+        z-index:-1;
+    }
+    .comaigen_idea_main2 .img-2{
+        width: 650px;
+        height: 111px;
+        position: absolute;
+        top: 1500px;
+        left: 110px;
+        background-color: #F3CB3B;
+        z-index: -1;
+    }
+
+    .comaigen_idea_main2 .img3{
+        width: 760px;
+        height: 111px;
+        position: absolute;
+        top: 1790px;
+        left: 780px;
+        background-color: #F3CB3B;
+        z-index: -1;
+
+    }
+    .comaigen_idea_main2 .img-3{
+        position: absolute;
+        width: 100px;
+        height: 500px;
+        top: 1790px;
+        left: 820px;
+        background-color: #F3CB3B;
+        z-index:-1;  
+    }
+    .comaigen_idea_main2 .img4{
+        position: absolute;
+        width: 500px;
+        height: 133px;
+        top: 2500px;
+        left: 200px;
+        background-color: #F3CB3B;
+        z-index:-1;
+    }
+    .comaigen_idea_main2 .img-4{
+        width: 500px;
+        height: 400px;
+        position: absolute;
+        top: 2600px;
+        left: 100px;
+        background-color: #F3CB3B;
+        z-index: -1;
+    }
+    .comaigen_idea_main2 .img5{
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        top: 3180px;
+        left: 800px;
+        background-color: #F3CB3B;
+        z-index:-1;
+    }
+    .comaigen_idea_main2 .img-5{
+        width: 150px;
+        height: 300px;
+        position: absolute;
+        top: 3050px;
+        left: 1350px;
+        background-color: #F3CB3B;
+        z-index: -1;
+    }
+    .comaigen_idea_main2 .img6{
+        position: absolute;
+        width: 100px;
+        height: 400px;
+        top: 3950px;
+        left: 600px;
+        background-color: #F3CB3B;
+        z-index:-1;
+    }
+    .comaigen_idea_main2 .img-6{
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        top: 3750px;
+        left: 80px;
+        background-color: #F3CB3B;
+        z-index: -1;
+    }
+    .comaigen_idea_main2 .img7{
+        position: absolute;
+        width: 350px;
+        height: 400px;
+        top: 4400px;
+        left: 970px;
+        background-color: #F3CB3B;
+        z-index:-1;
+    }
+    .comaigen_idea_main2 .img-7{
+        width: 380px;
+        height: 250px;
+        position: absolute;
+        top: 4850px;
+        left: 750px;
+        background-color: #F3CB3B;
+        z-index: -1;
+    }
+    .backBtn{
+        width: 60px;
+        height: 60px;
+        position: fixed;
+        right: 10px;
+        top: 650px;
+        cursor: pointer;
+        display: none;
+        animation: backbtn 2s ease;
+
+    }
+   
+    
+
+
+    @media only screen and (max-width: 600px){
+        .compaigen_ideas{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+          
+            
+        }
+        .compaigen_ideas_heading img{
+            width: 70px;
+            height: 70px;
+            position: absolute;
+            top: 30px;
+        }
+        .compaigen_ideas_heading p{
+            position: absolute;
+            top: 85px;
+            left: 18px;
+            font-size:10px;
+        }
+        .head{
+        font-size: 30px;
+        margin: auto;
+        margin-left: 90px;
+        }
+        .comaigen_idea_main{
+            display: flex;
+          margin-left:10px;
+          margin-bottom: 50px;
+             
+        }
+
+            .comaigen_idea_main .comaigen_idea_main2 img{
+                height: 130px;
+                width: 130px;
+                margin-left: 10px;
+                margin-top: 100px;
+                
+                
+            }
+        
+            .comaigen_idea_main1 h1{
+                font-size: 20px;
+                line-height: 40px;
+                letter-spacing: 0.055em;
+                margin-left: 10px;
+                
+            }
+            .comaigen_idea_main1 p{
+        font-size: 10px;
+        font-weight: 150;
+        line-height: 20px;
+        letter-spacing: 0.0em;
+        width: 200px;
+        margin-left:10px;
+        margin-top: 40px;
+            }
+            
+            .comaigen_idea_main2 .img1{
+        width: 50px;
+        height: 180px;
+        top: 214px;
+        left: 330px;
+        z-index:-1;
+        
+        
+            }
+            .comaigen_idea_main2 .img-1{
+                width: 100px;
+                height: 30px;
+                top: 360px;
+                left: 220px;
+                z-index: -1;
+            }
+
+            .comaigen_idea_main2 .img2{
+                width: 130px;
+                height: 130px;
+                top: 560px;
+                left: 5px;
+            }
+            .comaigen_idea_main2 .img-2{
+                width: 150px;
+                height: 30px;
+                top: 680px;
+                left:15px;
+            }
+
+            
+    .comaigen_idea_main2 .img3{
+        width: 160px;
+        height: 60px;
+        top: 830px;
+        left: 210px;
+        
+
+    }
+    .comaigen_idea_main2 .img-3{
+        width: 60px;
+        height: 90px;
+        top: 890px;
+        left: 225px;
+    }
+    .comaigen_idea_main2 .img4{
+        width: 80px;
+        height: 70px;
+        top: 1165px;
+        left: 90px;
+
+    }
+    .comaigen_idea_main2 .img-4{
+        width: 130px;
+        height: 70px;
+        top: 1250px;
+        left: 0px;
+    }
+    .comaigen_idea_main2 .img5{
+        width: 130px;
+        height: 90px;
+        top: 1500px;
+        left: 220px;
+
+    }
+    .comaigen_idea_main2 .img-5{
+        width: 50px;
+        height: 90px;
+        top: 1430px;
+        left: 330px;
+    }
+    .comaigen_idea_main2 .img6{
+        width: 70px;
+        height: 90px;
+        top: 1800px;
+        left: 100px;
+    }
+    .comaigen_idea_main2 .img-6{
+        width: 60px;
+        height: 60px;
+        top: 1710px;
+        left: 0px;
+    }
+    .comaigen_idea_main2 .img7{
+        width: 120px;
+        height: 50px;
+        top: 2120px;
+        left: 215px;
+    }
+    .comaigen_idea_main2 .img-7{
+        width: 80px;
+        height: 60px;
+        top: 1995px;
+        left: 255px;
+    }
+    .backBtn{
+        width: 30px;
+        height: 30px;
+        position:fixed;
+        right: 30px;
+        top: 420px;
+
+    }
+    
+    }
+
+
