@@ -14,8 +14,11 @@
     background-color: #5BD7E8;
     border-bottom: 3px solid black;
   }
-.main{
+.brand_main .main{
+    
+
     border-right: 3px solid #FF018F;
+
 }
 .brand_main{
     background-color: #5BD7E8;
@@ -154,9 +157,11 @@
 }
 .upper{
     display: flex;
+    
 }
 .brand{
     position: relative;
+    
 }
 
 
@@ -239,7 +244,7 @@ right: 200px;
 
 }
 .bar{
-    font-size: 40px;
+    font-size:40px;
     color: #FF007F;
     margin: auto;
 }
@@ -933,7 +938,7 @@ margin-right:350px;
 width: 100px;
 height: 100px;
 position: absolute;
-left: 470px;
+left: 460px;
 top: -2px;
 }
 
@@ -962,7 +967,7 @@ color: #3D159F;
 
 .comapigen_type_block1 form input,textarea{
     border: 2px solid #4700FF;
-    width: 200px;
+    width: 300px;
     margin-bottom: 20px;
     border-radius: 5px;
     
@@ -1173,6 +1178,7 @@ text-shadow:-10px 4px white;
     }
     .main{
         padding-right: 90px;
+      
     }
     .logo img{
     
